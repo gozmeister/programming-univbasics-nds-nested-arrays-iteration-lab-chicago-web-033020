@@ -17,8 +17,8 @@ def find_greater_pair(src)
       outer_results << src[row_index][0]
     else 
       outer_results << src[row_index][1]
-      row_index += 1 
     end
+    row_index += 1 
   end
   outer_results
 end
